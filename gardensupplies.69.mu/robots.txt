@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+sitemap: https://gardensupplies.69.mu/sitemap.xml

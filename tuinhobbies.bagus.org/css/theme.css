@@ -1,0 +1,36 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Montserrat:400,500,600,700,800&display=swap');
+
+/* Normalize CSS */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* ... (existing normalize.css styles) ... */
+
+/* Custom Styles */
+:root {
+    --primary: rgb(46, 204, 113);
+    --secondary: rgb(52, 152, 219);
+    --color3: rgb(241, 196, 15);
+    --color4: rgb(155, 89, 182);
+    --white: white;
+    --light: #ecf0f1;
+    --dark: #34495e;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light);
+    z-index: 0;
+    animation: bodyFadeIn 5s ease-in-out;
+}
+
+/* Body Fade-in Animation */
+@keyframes bodyFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

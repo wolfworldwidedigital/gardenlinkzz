@@ -1,0 +1,116 @@
+/* Reset margins and paddings for common elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles to the body */
+body {
+    background: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    color: #333; /* Dark text for contrast */
+}
+
+/* Header styles */
+header a {
+    color: #ffd700; /* Gold */
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+header a:hover {
+    transform: scale(1.1); /* Slight scale up on hover */
+    color: #ffd700; /* Maintain gold color on hover */
+}
+
+/* Main container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url(../index_files/hero-image.jpg); /* Elegant hero image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* Heading 1 styles */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Heading 2 styles */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: #000; /* Black background */
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff; /* White text */
+    transition: background-color 0.3s ease-in-out;
+}
+
+h2:hover {
+    background-color: #ffd700; /* Gold background on hover */
+    color: #333; /* Dark text on hover */
+}
+
+/* Paragraph description styles */
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: square; /* Square list bullets */
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 5px;
+    transition: margin-left 0.3s ease;
+}
+
+li:hover {
+    margin-left: 10px; /* Move to the right on hover */
+}
+
+/* Anchor styles */
+a {
+    color: #ffd700; /* Gold */
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for anchor */
+a:hover {
+    color: #333; /* Dark text on hover */
+    text-decoration: underline;
+}

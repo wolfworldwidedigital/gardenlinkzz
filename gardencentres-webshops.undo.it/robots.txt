@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://gardencentres-webshops.undo.it/sitemap.xml

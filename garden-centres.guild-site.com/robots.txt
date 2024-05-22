@@ -1,0 +1,6 @@
+# Allow all web crawlers access to all content
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://garden-centres.guild-site.com/sitemap.txt

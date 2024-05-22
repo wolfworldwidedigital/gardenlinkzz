@@ -1,0 +1,153 @@
+/* Reset margins and paddings for common elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles to the body */
+body {
+    background: #f5e7dc; /* Aged paper background */
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #7b615c; /* Muted brown text */
+}
+
+/* Header styles */
+header a {
+    color: #bf8c66; /* Vintage orange */
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+header a:hover {
+    transform: scale(1.1); /* Slight scale up on hover */
+    color: #875d3c; /* Darker brown on hover */
+}
+
+/* Main container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url(../index_files/hero-image.jpg)!important;
+    background-size: cover;
+    text-align: center;
+    padding: 280px 0;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Pseudo-element for additional 3D effect */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* Heading 1 styles */
+h1 {
+    font-size: 36px;
+    color: #bf8c66; /* Vintage orange */
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #875d3c; /* Darker brown on hover */
+}
+
+/* Heading 2 styles */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: #875d3c; /* Dark brown background for subheadings */
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+    color: #f5e7dc; /* Light text on dark background */
+    transition: background-color 0.3s ease-in-out;
+}
+
+h2:hover {
+    background-color: #bf8c66; /* Lighter brown background on hover */
+}
+
+/* Paragraph description styles */
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #7b615c; /* Muted brown text */
+    transition: color 0.3s ease-in-out;
+}
+
+.description:hover {
+    color: #bf8c66; /* Lighter brown text on hover */
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 5px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+li:hover {
+    margin-left: 10px;
+}
+
+/* Anchor styles */
+a {
+    color: #bf8c66; /* Vintage orange */
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for anchor */
+a:hover {
+    color: #875d3c; /* Darker brown and underline on hover */
+    text-decoration: underline;
+}
+
+/* Background animation for body */
+body {
+    animation: bodyWave 10s infinite alternate;
+}
+
+/* Keyframes for background animation */
+@keyframes bodyWave {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}

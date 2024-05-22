@@ -1,0 +1,120 @@
+/* Reset margins and paddings for common elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles to the body */
+body {
+    background: #0f0f0f; /* Dark background */
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff; /* White text for contrast */
+}
+
+/* Header styles */
+header a {
+    color: #00ff00; /* Neon green */
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+header a:hover {
+    transform: scale(1.1); /* Slight scale up on hover */
+    color: #0af709; /* Lighter green on hover */
+}
+
+/* Main container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #121212; /* Dark gray background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url(../index_files/hero-image.jpg); /* Futuristic tech hero image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* Heading 1 styles */
+h1 {
+    font-size: 36px;
+    color: #00ff00; /* Neon green */
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #0af709; /* Lighter green on hover */
+}
+
+/* Heading 2 styles */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: #1a1a1a; /* Dark gray background */
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    color: #fff; /* White text */
+    transition: background-color 0.3s ease-in-out;
+}
+
+h2:hover {
+    background-color: #121212; /* Slightly darker gray background on hover */
+}
+
+/* Paragraph description styles */
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #aaa;
+    transition: color 0.3s ease-in-out;
+}
+
+.description:hover {
+    color: #999; /* Slightly darker text on hover */
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: circle; /* Circle list bullets */
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 5px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+li:hover {
+    margin-left: 10px; /* Move to the right on hover */
+}
+
+/* Anchor styles */
+a {
+    color: #00ff00; /* Neon green */
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for anchor */
+a:hover {
+    color: #0af709; /* Lighter green on hover */
+    text-decoration: underline;
+}

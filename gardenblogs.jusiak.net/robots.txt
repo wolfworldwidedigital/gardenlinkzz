@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://gardenblogs.jusiak.net/sitemap.xml

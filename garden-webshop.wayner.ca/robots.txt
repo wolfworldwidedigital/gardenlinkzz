@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Allow: /includes/
+
+Sitemap: https://garden-webshop.wayner.ca/sitemap.xml

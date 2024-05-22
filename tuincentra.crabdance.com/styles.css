@@ -1,0 +1,90 @@
+/* Reset styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f2;
+    color: #252525;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 940px;
+    margin: 5% auto;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.03), 2px 2px 15px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('/your-hero-image.webp') no-repeat center center/cover;
+    text-align: right;
+    padding: 110px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 38px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 30px;
+    color: #3a3a3a;
+    border-bottom: 1px dotted #a5a5a5;
+    padding-bottom: 7px;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 17px;
+    color: #5a5a5a;
+}
+
+.websites {
+    margin-top: 15px;
+    list-style: circle;
+    padding-left: 12px;
+}
+
+.websites a {
+    text-decoration: none;
+    color: #0055cc;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 7px;
+    transition: color 0.3s ease;
+    border-bottom: 1px dotted #0055cc;
+}
+
+.websites a:hover {
+    color: #003399;
+    border-bottom: 1px solid #003399;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: overline;
+}
+
+section {
+    margin: 32px 0;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+/* Soft gradient background */
+body {
+    background: linear-gradient(to bottom, #f7f7f5, #e4e4e2);
+}

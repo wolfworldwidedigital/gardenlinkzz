@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://tuinshops.virti.net/sitemap.xml
+
+Google verification: https://tuinshops.virti.net/google9c4968f02c95510c.html
